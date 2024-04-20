@@ -1,4 +1,5 @@
 import sys
+import Webfinder
 
 def main():
     print("Welcome to the Information System CLI!")
@@ -10,18 +11,19 @@ def main():
         print("4. Exit")
         
         choice = input("Enter your choice (1-4): ")
-        
-        if choice == '1':
-            view_personal_info()
-        elif choice == '2':
-            view_educational_info()
-        elif choice == '3':
-            view_professional_info()
-        elif choice == '4':
-            print("Exiting the Information System CLI. Goodbye!")
-            sys.exit()
-        else:
-            print("Invalid choice. Please enter a number between 1 and 4.")
+
+        match choice:
+            case "1":
+                view_personal_info()
+            case "2":
+                view_educational_info()
+            case "3":
+                view_professional_info()
+            case "4":
+                print("Exiting the Information System CLI. Goodbye!")
+                sys.exit()
+            case _:
+                print("Invalid choice. Please enter a number between 1 and 4.")
 
 def view_personal_info():
     print("\nPersonal Information:")
