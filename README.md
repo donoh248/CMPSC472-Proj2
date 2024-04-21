@@ -1,5 +1,5 @@
 # CMPSC472-Proj2
-CMPSC472 Project 2 for Spring 2024
+CMPSC472 Project 2 for Spring 2024 by Zachary Whitaker and Donovan Biedermann
 
 ## Project goals
 The main goal of this project is to create a program using material we learned in class to address drug abuse. We aim to make the user more aware of the medical facts of each major abusive drug and how to effects someone so that in the future, symptoms of addiction or abuse can be easier to identify and treatment can be administered faster.
