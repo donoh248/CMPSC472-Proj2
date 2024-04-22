@@ -12,7 +12,18 @@ The significance of this project is the access to a collective knowledgebase to 
 - To run this CLI application, type in the terminal: <code>python Webfinder.py</code> and the application will open.
 
 ## Code structure
+### Structure of Code:
+<code>
+CMPSC472-PROJ2
+ ∟ Webfinder.py
+ ∟ websites.py
+</code>
+
+- Webfinder.py is the main program logic for the application.
+- websites.py contains the list of sources for drug information. This is used as a dependency for Webfinder.py
 
 ## List of functionalities and test results
 
+
 ## Discussion and Conclusions
+
