@@ -31,10 +31,13 @@ The program contains 4 functions:
 
 ### Test result images
 **Test 1 running the code in a basic standard case, having all inputs spelled correctly**
+![Test 1](https://github.com/donoh248/CMPSC472-Proj2/blob/main/CMPSC472%20Project2%20Image1.png)
 
 **Test 2 running the code and demonstratiting how the program scans for all possible matches the are close to the user's input. Also shows how the input does not need to be fully inputted as seen when asking for the purpose**
+![Test 2](https://github.com/donoh248/CMPSC472-Proj2/blob/main/CMPSC472%20Project2%20Image2.png)
 
 **Test 3 running the code and denying a choice that demonstrates the loop until a definite answer has been inputted. Just like Test 2 shows how the input does not need to be fully complete**
+![Test 3](https://github.com/donoh248/CMPSC472-Proj2/blob/main/CMPSC472%20Project2%20Image3.png)
 
 ## Discussion and Conclusions
 
