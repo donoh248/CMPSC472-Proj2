@@ -24,10 +24,17 @@ CMPSC472-PROJ2
 
 ## List of functionalities and test results
 The program contains 4 functions:
-- find_drugs- Asks what type of drug you are looking for info on. The input scans a dictionary of drugs, which in turn contains lists of different names of the drugs. The scan runs through the dictionary and uses get_close_matches to find the closest match to the input. When the user confirms it it stores that string as the drug_type to be used for later
-- find_purpose- Asks about the purpose of the research: Educational, Personal, or Legal. Follows a similar pattern of using get_close_matches to find and confirm the user's choice. The program then takes the purpose and the appropriate list (i.e. educational purpose uses the list of educational subjects) and runs it through the find_subject function
-- find_subject- Asks what type of information you are looking for based on your subject. After confirming what subject the user is looking for, it return the subject and stores it as drug_info
-- find_site- Function uses drug_type and drug_info from previous functions and finds the required website based on the strings given. The websites used are stored into websites.py. It then stores the website as a string called url. This url is then used in a webbrowser.open() code to open the url and give the user the information they are looking for.
+- **find_drugs**- Asks what type of drug you are looking for info on. The input scans a dictionary of drugs, which in turn contains lists of different names of the drugs. The scan runs through the dictionary and uses get_close_matches to find the closest match to the input. When the user confirms it it stores that string as the drug_type to be used for later
+- **find_purpose**- Asks about the purpose of the research: Educational, Personal, or Legal. Follows a similar pattern of using get_close_matches to find and confirm the user's choice. The program then takes the purpose and the appropriate list (i.e. educational purpose uses the list of educational subjects) and runs it through the find_subject function
+- **find_subject**- Asks what type of information you are looking for based on your subject. After confirming what subject the user is looking for, it return the subject and stores it as drug_info
+- **find_site**- Function uses drug_type and drug_info from previous functions and finds the required website based on the strings given. The websites used are stored into websites.py. It then stores the website as a string called url. This url is then used in a webbrowser.open() code to open the url and give the user the information they are looking for.
+
+### Test result images
+**Test 1 running the code in a basic standard case, having all inputs spelled correctly**
+
+**Test 2 running the code and demonstratiting how the program scans for all possible matches the are close to the user's input. Also shows how the input does not need to be fully inputted as seen when asking for the purpose**
+
+**Test 3 running the code and denying a choice that demonstrates the loop until a definite answer has been inputted. Just like Test 2 shows how the input does not need to be fully complete**
 
 ## Discussion and Conclusions
 
