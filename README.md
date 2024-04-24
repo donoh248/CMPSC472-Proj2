@@ -40,4 +40,4 @@ The program contains 4 functions:
 ![Test 3](https://github.com/donoh248/CMPSC472-Proj2/blob/main/CMPSC472%20Project2%20Image3.png)
 
 ## Discussion and Conclusions
-
+CMPSC472-Proj2 successfully developed a command-line interface (CLI) application that allows users to search for information related to various drugs. The application uses input from the user to identify the specific drug, the purpose of the search (educational, personal, or legal), and the desired subject area. It then matches this input to a curated list of websites containing relevant drug information and opens the appropriate website in the user's web browser. Through its seamless integration of user input and a comprehensive database of websites, this application provides a convenient and centralized resource for individuals seeking to educate themselves or obtain guidance on drug-related topics. The project aligns with the stated goal of raising awareness about the medical facts and effects of abusive drugs, ultimately aiming to facilitate early identification of addiction symptoms and timely access to treatment options.
