@@ -39,6 +39,8 @@ The program contains 4 functions:
 **Test 3 running the code and denying a choice that demonstrates the loop until a definite answer has been inputted. Just like Test 2 shows how the input does not need to be fully complete**
 ![Test 3](https://github.com/donoh248/CMPSC472-Proj2/blob/main/CMPSC472%20Project2%20Image3.png)
 
+As you can see, based on the information inputted by the user, a specific link is given to them from the program. When running this program normally the link would open up on the user's browser in another tab. Since the main thing being tested is the code, a minor change was added to show which link was being open from the program
+
 ## Discussion and Conclusions
 This project exemplifies the practical application of operating system concepts within a computer science context, showcasing the integration of processes, data management, and resource allocation. Through techniques like input parsing and similarity matching, the code efficiently navigates through a complex array of drug-related information, echoing the challenges faced in operating system design regarding process handling and resource management. By organizing the code into modular functions and utilizing dictionaries for data storage, it not only enhances readability and scalability but also reflects the structured architecture inherent in operating systems. 
 
