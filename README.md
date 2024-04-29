@@ -9,7 +9,7 @@ The significance of this project is the access to a collective knowledgebase to 
 
 ## Installation and usage instructions
 - To install this code, simply type in the terminal: <code>git clone https://github.com/donoh248/CMPSC472-Proj2.git</code>
-- To run this CLI application, type in the terminal: <code>python Webfinder.py</code> and the application will open.
+- To run this CLI application, type in the terminal: <code>python CMPSC472-Proj2/Webfinder.py</code> and the application will open.
 
 ## Code structure
 ### Structure of Code:
